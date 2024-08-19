@@ -1,0 +1,411 @@
+.collaborations-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .hero-placeholder {
+    background-color: white;
+    height: 510px;
+    margin-bottom: 20px;
+    display: grid;
+   
+    /* text-align: center; */
+    
+  }
+  .hero-placeholder .hero-text{
+    position: absolute;
+   
+    left: 10%;
+    width:39%;
+  }
+  .hero-placeholder .hero-text h1{
+    font-size: 60px;
+    font-family: auto;
+    position: absolute;
+    font-weight: 250;
+    left: 0rem;
+    top: 1.3rem;
+    letter-spacing: 0.5rem;
+  }
+  .hero-placeholder .hero-text p{
+    margin-top: 6.5rem;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    padding: 3px 2px;
+  }
+  .hero-placeholder .btn{
+    margin-top: 2.5rem;
+    /* margin-left: 22%; */
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px rgba(60,64,67,0.3) ;
+  }
+  .hero-placeholder .btn:hover{
+    box-shadow: 8px 6px 8px 6px rgba(60,64,67,0.3) , 8px 6px 8px 6px rgba(60,64,67,0.15);
+    /* background-color: transparent; */
+  }
+  .hero-placeholder img{
+    width: 40%;
+    height: 467px;
+    position: absolute;
+    right:4%;
+    top:8rem;
+  }
+  
+  .content{
+    text-align: center;
+    position: relative;
+    top: 0.2rem; 
+
+  }
+  .content .content_heading{
+    width: 30%;
+    border: 3px solid white;
+    box-shadow: 8px 6px 8px 6px rgba(60,64,67,0.3) , 8px 6px 8px 6px rgba(60,64,67,0.15);
+    border-radius: 25px;
+    display: flex;
+    z-index: 0;
+    padding: 20px 1px;
+    position: absolute; 
+    top: -7%;
+    left: 4%;
+  }
+  .content .content_heading_2{
+    width: 30%;
+    border: 3px solid white;
+    box-shadow: 8px 6px 8px 6px rgba(60,64,67,0.3) , 8px 6px 8px 6px rgba(60,64,67,0.15);
+    border-radius: 25px;
+    z-index: 0;
+    padding: 20px 4px;
+    /* margin-left: 5.5rem;   */
+    /* transform: translateX(50rem); */
+    position: absolute;
+    top: 5%;
+    right: 6%; 
+  }
+  .content .content_heading_3{
+    width: 30%;
+    border: 3px solid white;
+    box-shadow: 8px 6px 8px 6px rgba(60,64,67,0.3) , 8px 6px 8px 6px rgba(60,64,67,0.15);
+    border-radius: 25px;
+    z-index: 0;
+    padding: 20px 4px;
+    /* margin-left: 5.5rem;   */
+    /* transform: translateX(50rem); */
+    position: absolute;
+    top: 37%;
+    left: 4%;
+  
+  }
+  .content .content_heading_4{
+    width: 30%;
+    border: 3px solid white;
+    box-shadow: 8px 6px 8px 6px rgba(60,64,67,0.3) , 8px 6px 8px 6px rgba(60,64,67,0.15);
+    border-radius: 25px;
+    z-index: 0;
+    padding: 20px 5px;
+    /* margin-left: 5.5rem;   */
+    /* transform: translateX(50rem); */
+    position: absolute;
+    top: 43%;
+    right: 6%;
+  
+  }
+ 
+  
+  .content h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+  .faq{
+    position: relative; 
+    /* margin-top: auto; */
+    top:-6rem; 
+    /* transform: translateY(-30rem) translateX(2rem); */
+    width: 45%;
+    margin: 5px 10px;
+    z-index: 2;
+  }
+  
+  .content h1 {
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    z-index: 3;
+    
+    
+  }
+  
+ 
+  .logos img {
+    /* margin: 0 25px; */
+    width: 7.3%;
+    /* height: 50px; */
+    margin: 50px 75px;
+  }
+  
+  .what-we-do-section {
+    /* background-color: #f5f5f5; */
+    position: relative;
+    top:0.2rem;
+    
+    padding: 10px 20px;
+    text-align: center;
+    
+  }
+  
+  .what-we-do-section h2 {
+    
+    margin-bottom: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+    font-size: 45px;
+
+  }
+  
+  .what-we-do-section p {
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+  }
+  
+  .steps {
+    display: block;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  .step {
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+    display: flex;
+    gap: 30px;
+    margin-left: 8rem;
+    border-radius: 8px;
+    padding: 45px;
+    /* width: 200px; */
+    text-align: left;
+  }
+  .index_1,.index_2,.index_3{
+    border: 5px solid #f5f5f5;
+    background-color: #f5f5f5;
+    margin-top: 3.4rem;
+    padding: 1rem;
+    /* top: 1rem; */
+    width: 9.6rem;
+    height: 12.5rem;
+    border-radius: 20px;
+  }
+  
+  .index_2{
+    left: 79.3%;
+    top: -0.6rem;
+    position: relative;
+  }
+  .index_3{
+    left: -0.6%;
+    position: relative;
+    top: -0.6rem;
+  }
+  .dottedline1{
+    position: relative;
+    top: 3.8rem;
+    left:60%;
+    transform: scaleY(1.1);
+  }
+  .dottedline2{
+    position: relative;
+    display: inline-flex;
+    transform: scaleX(-1) scaleY(1.4) translateX(800px) translateY(66px);
+  }
+  .step-content{
+    width: 74%;
+    padding: 65px 90px;
+    border-radius: 25px;
+    box-shadow: 8px 6px 8px 6px rgba(60,64,67,0.3) , 8px 6px 8px 6px rgba(60,64,67,0.15);
+  }
+  #step_2{
+    /* padding: 20px 60px ; */
+    width: 74%;
+    padding: 85px 90px;
+    
+    transform: translateX(-150px) translateY(-10px);
+    
+  }
+  .step h3 {
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 560;
+    color: #cecece;
+    padding-top: 0.5rem;
+    margin: 0.3rem;
+    text-align: center;
+  }
+  
+  .step-content h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 650;
+    margin-bottom: 10px;
+  }
+  
+  .step-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #step_3{
+    width: 74%;
+    padding: 80px 90px;
+  }
+  .tags {
+    margin-top: 10px;
+  }
+  
+  .tags span {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 30px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    margin-right: 1.3rem;
+    font-size: 20px;
+  }
+  
+  .partners-section {
+    position: relative;
+    top:2rem;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .partners-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+  }
+  
+  .partners-logos img {
+    margin: 40px 80px;
+    width: 23rem;
+    /* height: 50px; */
+  }
+  
+  .last_section {
+    /* background-color: #000; */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    
+  }
+
+  .last_section h2{
+    font-size: 40px;
+    margin-bottom: 2rem;
+  }
+  .company_desc p{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650; 
+
+  }
+  .company_desc h4{
+    margin-top: -5rem;
+    margin-left: 43%;
+    width: 20%;
+    margin-bottom: 6rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 2px 3px 2px 3px rgba(60,64,67,0.3) , 2px 3px 2px 3px rgba(60,64,67,0.15); 
+  }
+
+  .image_desc{
+    width: 43%;
+    top: 3rem;
+    position: relative;
+    left: 10%;
+    z-index: 0;
+  }
+  
+
+  .desc{
+    width: 37%;
+    position: relative;
+    top: -13.5rem;
+    left: 50%;
+    z-index: 1;
+    
+  }
+  .desc p{
+    font-size: 16.4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: initial;
+    margin: 6px 0;
+    color: black;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .content .content_heading {
+      width: 30%;
+      margin-left: 7rem;
+    }
+  
+    .logos img {
+      width: 7.3%;
+      margin: 50px 75px;
+    }
+  
+    .step {
+      display: flex;
+      gap: 30px;
+      width: 80%;
+    }
+  
+    .index_1,
+    .index_2,
+    .index_3 {
+      width: 72px;
+      height: 85px;
+    }
+  
+    .step-content {
+      padding: 45px 90px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .partners-section h2 {
+      font-size: 40px;
+    }
+  
+    .partners-logos img {
+      width: 200px;
+    }
+  
+    .last_section h2 {
+      font-size: 40px;
+    }
+  }
