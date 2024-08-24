@@ -409,3 +409,32 @@
       font-size: 40px;
     }
   }
+
+  @media (max-width: 600px) {
+    .content .content_heading {
+      width: 30%;
+      margin-left: 7rem;
+    }
+  
+    .logos img {
+      width: 7.3%;
+      margin: 50px 75px;
+    }
+  
+    .step {
+      display: flex;
+      gap: 30px;
+      width: 80%;
+    }
+  
+    .index_1,
+    .index_2,
+    .index_3 {
+      width: 72px;
+      height: 85px;
+    }
+  
+    .step-content {
+      padding: 45px 90px;
+    }
+  }
